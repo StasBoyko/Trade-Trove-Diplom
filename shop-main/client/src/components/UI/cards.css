@@ -1,0 +1,69 @@
+ /* ******** Faqu Card ******** */
+.faqcard {
+    border: 1px solid #ddd; /* Стиль рамки */
+    border-radius: 10px; /* Округлені кути */
+    padding: 20px; /* Відступ від вмісту до рамки */
+    margin-bottom: 20px; /* Відступ між картками */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
+    background-color: #f9f9f9; /* Фоновий колір */
+    margin-right: 1%;
+  }
+  
+  .faqcardh3 {
+    color: #007bff; /* Колір тексту для питання */
+  }
+  
+  .faqcardP {
+    color: #28a745; /* Колір тексту для відповіді */
+    font-style: italic; /* Курсивний шрифт для відповіді */
+  }
+/* ******** Faqu Card ******** */
+
+/* ******** Product Card ******** */
+.Productcard {
+  border: 1px solid #030303; /* Тінь рамки */
+  border-radius: 10px; /* Округлені кути */
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  background-color: #f9f9f9; /* Фоновий колір */
+  transition: transform 0.3s ease; /* Анімація при наведенні */
+}
+
+.Productcard:hover {
+  transform: scale(1.01); /* Збільшує картку при наведенні */
+}
+
+.card-body {
+  padding: 20px; /* Відступ від вмісту до рамки */
+}
+
+.card-title {
+  color: #007bff; /* Колір заголовка */
+  font-size: 1.25rem; /* Розмір шрифту заголовка */
+  margin-bottom: 10px; /* Відступ між заголовком та іншим вмістом */
+}
+
+.card-details {
+  color: #28a745; /* Колір тексту для деталей */
+  font-size: 1rem; /* Розмір шрифту для деталей */
+  margin-bottom: 10px; /* Відступ між деталями та іншим вмістом */
+}
+
+.card-button {
+  background-color: #28a745; /* Колір кнопки */
+  color: #fff; /* Колір тексту кнопки */
+  border: none; /* Видалення рамки кнопки */
+  border-radius: 5px; /* Округленість кутів кнопки */
+  padding: 10px 20px; /* Відступи кнопки */
+  font-size: 1rem; /* Розмір шрифту кнопки */
+  cursor: pointer; /* Зміна курсора при наведенні */
+  transition: background-color 0.3s ease; /* Анімація зміни кольору кнопки */
+}
+
+.card-button:hover {
+  background-color: #218838; /* Колір кнопки при наведенні */
+}
+
+/* ******** Product Card ******** */

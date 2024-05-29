@@ -1,0 +1,316 @@
+/* ******** Registration Page ******** */
+.registration-form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Білий фон */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь */
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    color: #28a745; /* Зелений колір заголовка */
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #007bff; /* Синій колір міток */
+  }
+  
+  .registration-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .registration-form input:focus {
+    outline: none;
+    border-color: #28a745; /* Зелений колір рамки при фокусі */
+  }
+  
+  .registration-form .error {
+    color: #dc3545; /* Червоний колір тексту помилки */
+    margin-top: 5px;
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Зелений колір кнопки */
+    color: #ffffff; /* Білий колір тексту кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Анімація */
+  }
+  
+  .registration-form button:hover {
+    background-color: #218838; /* Темно-зелений колір кнопки при наведенні */
+    transform: scale(1.05); /* Збільшення кнопки при наведенні */
+  }
+  /* ******** Registration Page ******** */
+  
+
+
+ /* ******** Login Page ******** */
+ .login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30%;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #28a745;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer; /* Заборона зміни курсору для інпутів */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="email"] {
+  user-select: none; /* Заборона вибору тексту для інпутів */
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: #28a745;
+}
+
+.login-container .error {
+  color: #dc3545;
+  margin-top: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+ /* ******** Login Page ******** */
+
+ /* ******** Profile Page ******** */
+
+ .ProfilePageMainDiv{
+  margin-left: 35%;
+  margin-top: 5%;
+  width: 30%;
+}
+
+.MainButton{
+  width: 100%;
+  background-color: #4caf50; /* Зелений колір */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додано тінь */
+  transition: all 0.4s ease;
+}
+
+.MainButton:hover {
+  background-color: #45a049; /* Зелений колір при наведенні */
+  transform: scale(1.03);
+}
+/*******   prof view   ***************/
+
+.profile-container {
+  background-color: #f0f8f7; /* Світлозелений колір */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додано тінь */
+}
+
+.profile-title {
+  color: #333;
+  margin-bottom: 10px; /* Збільшено відступ від заголовка до інформації */
+}
+
+.profile-button {
+  background-color: #4caf50; /* Зелений колір */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додано тінь */
+}
+
+.profile-button:hover {
+  background-color: #45a049; /* Зелений колір при наведенні */
+}
+
+.profile-info {
+  border: 1px solid #ccc;
+  padding: 20px; /* Збільшено відступ */
+  border-radius: 5px;
+}
+
+.profile-info-item {
+  margin: 10px 0; /* Збільшено відступ між рядками */
+  color: #007bff;
+}
+/*******   prof Edit   ***************/
+
+.form-container {
+  background-color: #f0f8f7; /* Світлозелений колір */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додано тінь */
+}
+
+.form-title {
+  color: #1e90ff; /* Синій колір тексту */
+  margin-bottom: 20px; /* Збільшено відступ */
+}
+
+.formLabels {
+  color: #1e90ff; /* Синій колір тексту */
+  display: block;
+  margin-bottom: 10px; /* Збільшено відступ */
+}
+
+.formInputs {
+  padding: 10px;
+  margin-bottom: 10px; /* Збільшено відступ */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додано тінь */
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #1e90ff; /* Синій колір при фокусуванні */
+}
+
+.form-button {
+  background-color: #4caf50; /* Зелений колір */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додано тінь */
+}
+
+.form-button:hover {
+  background-color: #45a049; /* Зелений колір при наведенні */
+}
+.h1Edit{
+  text-align: center;
+  color: #28a745;
+}
+
+
+ /* ******** Profile Page ******** */
+
+
+
+  /* ******** Product Page ******** */
+.main-produkt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+.image-container{
+    height: 200px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.textAreaDiv{
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: #28a745;
+  }
+  
+.textArea p {
+    margin-bottom: 10px;
+  }
+  
+.nameItem {
+    color: blue;
+    
+  }
+  
+.image-container {
+    width: 50%;
+    align-items: left;
+    justify-content: left;
+    height: 200px;
+    background: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+.btn {
+    background-color: #4caf50; /* Зелений колір */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додано тінь */
+    transition: all 0.5s ease;
+  }
+  
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #45a049; /* Зелений колір при наведенні */
+  }
+  
+.price {
+    color: red;
+  }
+  .inputcomment{
+    padding: 5px;
+    margin-bottom: 10px; /* Збільшено відступ */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додано тінь */
+  }
+
+  /* ******** Product Page ******** */

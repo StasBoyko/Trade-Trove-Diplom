@@ -1,0 +1,3 @@
+cd shop-main
+cd client     npm start
+cd serv       npm run dev
